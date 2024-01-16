@@ -149,7 +149,7 @@ main {
     font-size: 1rem;
     font-weight: 700;
     border: 1px solid transparent;
-    border-radius: 8px ;
+    border-radius: 8px;
     background: #FF5400;
     width: 174px;
     height: 52px;
@@ -188,24 +188,34 @@ main {
     font-weight: 400;
     margin: 24px 0;
 }
-.popular-list{
+
+.popular-list {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     margin: 16px 0;
 }
-.popular .btn-4{
+
+.popular .btn-4 {
     margin-top: 8px;
 }
-.choose{
+
+.choose {
     text-align: center;
     margin-top: 100px;
 }
-.desti-row{
+
+.desti-row {
     display: flex;
     gap: 24px;
+    margin-bottom: 24px;
 }
-.desti-text{
+
+.row-1 {
+    display: flex;
+}
+
+/* .desti-text{
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -240,11 +250,11 @@ main {
 .desti-7{
     background-image: url('/Images/Rectangle\ 10.png');
     padding: 132px 259px 133px 260px;
-}
+} */
+
+
+
 /* alternate-triral-section */
-.row-1{
-    display: flex;
-}
 /* .parent-1{
     position: relative;
 } */
@@ -258,7 +268,106 @@ main {
     bottom: 140px;
     left: 220px;
 } */
+.why {
+    /* text-align: center; */
 
+}
+
+.why-heading {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 90px;
+}
+
+.why img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+
+.why h4,
+.newsletter h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    width: 500px;
+}
+
+.why-row-1 {
+    display: flex;
+    gap: 24px;
+}
+
+.card-1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.card-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.card-3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    margin: 24px auto;
+}
+
+.newsletter {
+    display: flex;
+    gap: 24px;
+}
+
+.news-content {
+    width: 400px;
+    height: 340px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.news-content hr {
+    width: 393px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px 0;
+}
+
+.news-content input {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+    padding-left:20px;
+}
+.news-content .btn-4 {
+    width: 393px;
+    height: 52px;
+    margin-top: 8px;
+}
 
 /* responsive styles */
 /* for small devices */
@@ -329,28 +438,41 @@ main {
     .popular {
         flex-direction: column;
     }
+
     .popular-left {
         width: 540px;
         margin-right: 0px;
     }
+
     .popular-title {
         font-size: 20px;
     }
-    .popular-description, .popular-list{
+
+    .popular-description,
+    .popular-list {
         font-size: 14px;
     }
-    .popular .btn-4{
+
+    .popular .btn-4 {
         margin-top: 24px;
-        margin-bottom:24px ;
+        margin-bottom: 24px;
     }
-    .choose{
+
+    .choose {
         margin-top: 24px;
     }
-    .desti-row{
+
+    .desti-row {
         flex-direction: column;
         gap: 16px;
+        width: 350px;
     }
-    .desti-text{
+
+    .desti-row img {
+        width: 500px;
+    }
+
+    /* .desti-text{
         font-size: 20px;
         border-radius: 16px;
     }
@@ -375,5 +497,21 @@ main {
     }
     .desti-7{
         padding: 75px 113px 76px 114px ;
+    } */
+    .why-row-1 {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .why h4,
+    .newsletter h4 {
+        width: 300px;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 435px;
+        height: 289px;
     }
 }
