@@ -361,8 +361,9 @@ main {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     margin-bottom: 16px;
-    padding-left:20px;
+    padding-left: 20px;
 }
+
 .news-content .btn-4 {
     width: 393px;
     height: 52px;
@@ -514,4 +515,19 @@ main {
         width: 435px;
         height: 289px;
     }
+
+    .newsletter {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .news-content {
+        width: 430px;
+        height: 340px;
+    }
+
+    .newsletter img {
+        width: 100%;
+    }
+
 }
