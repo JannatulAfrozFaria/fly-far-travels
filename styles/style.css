@@ -77,8 +77,7 @@ main {
 }
 
 .banner {
-    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('/g3.png'); */
-    background: url('https://jannatulafrozfaria.github.io/fly-far-travels/Images/Rectangle%204.png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/g3.png');
     border-radius: 16px;
     text-align: center;
     padding: 106px 10px;
@@ -241,6 +240,10 @@ main {
 .desti-7{
     background-image: url('/Images/Rectangle\ 10.png');
     padding: 132px 259px 133px 260px;
+}
+
+.row-1{
+    display: flex;
 }
 
 /* responsive styles */
