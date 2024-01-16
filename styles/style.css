@@ -119,10 +119,11 @@ main {
 .btn-1,
 .btn-2,
 .btn-3 {
-    color: rgba(109, 109, 249, 0.5);
+    color: rgba(19, 19, 24, 0.50);
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
+    border: 1px solid transparent;
     border-radius: 8px;
     background: #FFF;
     width: 174px;
