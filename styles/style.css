@@ -241,10 +241,24 @@ main {
     background-image: url('/Images/Rectangle\ 10.png');
     padding: 132px 259px 133px 260px;
 }
-
+/* alternate-triral-section */
 .row-1{
     display: flex;
 }
+/* .parent-1{
+    position: relative;
+} */
+/* .desti-text1{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+} */
+/* .t1{
+    position: absolute;
+    bottom: 140px;
+    left: 220px;
+} */
+
 
 /* responsive styles */
 /* for small devices */
