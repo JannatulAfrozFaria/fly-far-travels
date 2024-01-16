@@ -379,13 +379,19 @@ footer{
     height: 502px;
     flex-shrink: 0;
     background: rgba(19, 19, 24, 0.05);
-    padding: 110px 300px;
+    padding: 110px 225px;
     text-align: center;
+    margin-top: 100px;
 }
 .footer{
     display: flex;
     text-align: center;
     margin: 110px 200px 15px 200px;
+    padding: 0 200px 0 400px;
+}
+.footer h3{
+    max-height: 50px;
+    margin: 0;
 }
 .footer img{
     margin-right: 16px ;
@@ -565,5 +571,22 @@ footer hr{
     .newsletter img {
         width: 100%;
     }
-
+    footer{
+        width: 550px;
+        height: 309px;
+        padding: 33px 44px;
+        text-align: center;
+        margin-top: 24px;
+    }
+    footer p{
+        margin-top: 16px ;
+    }
+    .footer{
+        margin: 32px 105px 15px 105px;
+        padding: 0;
+    }
+    footer hr{
+        width: 335px;
+        margin: 50px auto;
+    }
 }
