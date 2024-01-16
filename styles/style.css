@@ -354,11 +354,8 @@ main {
 
 .news-content input {
     color: rgba(19, 19, 24, 0.30);
-    font-family: Mulish;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     width: 393px;
     height: 52px;
     flex-shrink: 0;
@@ -370,7 +367,7 @@ main {
 }
 
 .news-content .btn-4 {
-    width: 393px;
+    width: 416px;
     height: 52px;
     margin-top: 8px;
 }
@@ -572,7 +569,7 @@ footer hr{
         width: 100%;
     }
     footer{
-        width: 550px;
+        width: 510px;
         height: 309px;
         padding: 33px 44px;
         text-align: center;
@@ -580,13 +577,15 @@ footer hr{
     }
     footer p{
         margin-top: 16px ;
+        width: 490px;
     }
     .footer{
-        margin: 32px 105px 15px 105px;
+        margin: 32px 105px 15px 65px;
         padding: 0;
     }
     footer hr{
-        width: 335px;
+        width: 380px;
         margin: 50px auto;
+        margin-left: 60px;
     }
 }
