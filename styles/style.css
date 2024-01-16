@@ -173,7 +173,7 @@ main {
 
 .popular-left {
     width: 580px;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 .popular-title {
@@ -184,12 +184,64 @@ main {
 }
 
 .popular-description {
-    margin: 24px 0;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
+    margin: 24px 0;
 }
-
+.popular-list{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+.popular .btn-4{
+    margin-top: 8px;
+}
+.choose{
+    text-align: center;
+    margin-top: 100px;
+}
+.desti-row{
+    display: flex;
+    gap: 24px;
+}
+.desti-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 16px;
+}
+.desti-1{
+    background-image: url('/Images/Rectangle\ 5.png');
+    padding: 132px 226px 133px 227px;
+}
+.desti-2{
+    background-image: url('/Images/Rectangle\ 8.png');
+    padding: 132px 220px 133px 220px;
+}
+.desti-3{
+    background-image: url('/Images/Rectangle\ 6.png');
+    padding: 125px 130px 126px 130px;
+    border-radius: 16px;
+}
+.desti-4{
+    background-image: url('/Images/Rectangle\ 7.png');
+    padding: 125px 137px 126px 137px;
+}
+.desti-5{
+    background-image: url('/Images/Rectangle\ 9.png');
+    padding: 125px 80px 126px 81px;
+}
+.desti-6{
+    background-image: url('/Images/Rectangle\ 11.png');
+    padding: 132px 156px 133px 156px;
+}
+.desti-7{
+    background-image: url('/Images/Rectangle\ 10.png');
+    padding: 132px 259px 133px 260px;
+}
 
 /* responsive styles */
 /* for small devices */
@@ -259,5 +311,52 @@ main {
 
     .popular {
         flex-direction: column;
+    }
+    .popular-left {
+        width: 540px;
+        margin-right: 0px;
+    }
+    .popular-title {
+        font-size: 20px;
+    }
+    .popular-description, .popular-list{
+        font-size: 14px;
+    }
+    .popular .btn-4{
+        margin-top: 24px;
+        margin-bottom:24px ;
+    }
+    .choose{
+        margin-top: 24px;
+    }
+    .desti-row{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .desti-text{
+        font-size: 20px;
+        border-radius: 16px;
+    }
+    .desti-1{
+        padding: 75px 124px 75px 126px ;
+    }
+    .desti-2{
+        padding: 75px 121px 76px 121px;
+    }
+    .desti-3{
+        padding: 75px 126px 75px 127px ;
+    }
+    .desti-4{
+        padding: 75px 97x 76px 98px ;
+    }
+    .desti-5{
+        padding: 75px 128px 76px 128px ;
+        border-radius: 16px;
+    }
+   .desti-6, .desti-7{
+        padding: 75px 111px 76px 111px ;
+    }
+    .desti-7{
+        padding: 75px 113px 76px 114px ;
     }
 }
